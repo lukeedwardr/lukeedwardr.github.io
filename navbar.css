@@ -1,0 +1,9 @@
+.navbar{
+	background-color: grey;
+}
+
+.navbar a{
+	float: left;
+	text-align: center;
+	
+}
