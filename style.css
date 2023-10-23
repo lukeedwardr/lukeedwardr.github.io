@@ -1,0 +1,19 @@
+/* Body */
+
+body{
+	background-color: darkgrey;
+}
+
+
+/* Top Navigation Bar */
+
+body.navbar{
+	background-color: black;
+}
+
+.navbar a{
+	background-color: lightgrey;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
