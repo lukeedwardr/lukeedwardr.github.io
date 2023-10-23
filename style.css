@@ -1,14 +1,19 @@
 /* Body */
 
 body{
-	background-color: darkgrey;
+	background: darkgrey;
+	padding: 50px;
 }
 
+.wrapper{
+	margin: 0px auto;
+}
 
 /* Top Navigation Bar */
 
-body.navbar{
+.navbar{
 	background-color: black;
+	display: inline-block;
 }
 
 .navbar a{
@@ -16,4 +21,5 @@ body.navbar{
 	float: left;
 	text-align: center;
 	text-decoration: none;
+	padding: ;
 }
