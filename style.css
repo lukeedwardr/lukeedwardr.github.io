@@ -12,6 +12,7 @@ body{
 /* Top Navigation Bar */
 
 .navbar{
+	width: 100%;
 	background: black;
 	display: inline-block;
 }
