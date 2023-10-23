@@ -31,6 +31,6 @@ body{
 
 .article {
 	width: 100%;
-	color: lightgrey;
+	background: lightgrey;
 	display: inline-block;
 }
