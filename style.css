@@ -12,14 +12,14 @@ body{
 /* Top Navigation Bar */
 
 .navbar{
-	background-color: black;
+	background: black;
 	display: inline-block;
 }
 
 .navbar a{
-	background-color: lightgrey;
+	color: lightgrey;
 	float: left;
 	text-align: center;
 	text-decoration: none;
-	padding: ;
+	padding: 0px 10px;
 }
