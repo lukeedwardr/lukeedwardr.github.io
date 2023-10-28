@@ -1,6 +1,7 @@
-/* Body */
+/* All Pages - Body */
 
 body{
+	font-family: Lato, serif;
 	background: darkgrey;
 	padding: 50px;
 }
@@ -10,7 +11,7 @@ body{
 	margin: 0px auto;
 }
 
-/* Top Navigation Bar */
+/* All Pages - Top Navigation Bar */
 
 .navbar{
 	width: 100%;
@@ -27,7 +28,7 @@ body{
 	padding: 0px 10px;
 }
 
-/* Articles that contain content */
+/* All Pages - Articles that contain content */
 
 .article {
 	width: 100%;
@@ -39,7 +40,7 @@ body{
 	margin-left: 2%;
 }
 
-/* Game grid on Home Page */
+/* Home Page - Game Grid */
 
 .games {
 	width:100%;
@@ -62,6 +63,8 @@ body{
 	width: 100%;
 	height: auto;
 }
+
+/* Home Page - Hover over text */
 
 .game .overlay {
   position: absolute;
@@ -87,4 +90,28 @@ body{
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* Link Page */
+
+.links {
+	width:100%;
+	float:left;
+}
+
+.link {
+	display: block;
+	width: 20%;
+	height: auto;
+	border-radius: 2%;
+	margin: 2%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.link img {
+	display: block;
+	width: 80%;
+	height: auto;
 }
