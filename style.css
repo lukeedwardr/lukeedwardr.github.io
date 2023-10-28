@@ -35,36 +35,29 @@ body{
 	display: inline-block;
 }
 
+.article h1, p {
+	margin-left: 2%;
+}
+
 /* Game grid on Home Page */
 
 .games {
 	width:100%;
 	float:left;
 }
-
-.games .game {
-	width: 49%;
-	padding-bottom: 24%;
-	margin-bottom: 2%;
-	float: left;
-	position: relative;
-	overflow: hidden;
-}
-
-.games .game .a {
+/*
+.game .a {
  	color: #cccccc;
  	font-weight: bold;
  	text-decoration: none;
  	background-color: transparent;
 }
-
-.games .game .gamepreview {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-position: center;
-	background-size: cover;
-	transition: top 0.25s, left 0.25s, right 0.25s, bottom 0.25s;
+*/
+.game img {
+	width: 45%;
+	/*padding-bottom: 24%;*/
+	margin: 2%;
+	float: left;
+	position: relative;
+	overflow: hidden;
 }
