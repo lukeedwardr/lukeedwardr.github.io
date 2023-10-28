@@ -38,6 +38,7 @@ body{
 
 .article h1, p {
 	margin-left: 2%;
+	text-align: center;
 }
 
 /* Home Page - Game Grid */
@@ -114,4 +115,11 @@ body{
 	display: block;
 	width: 80%;
 	height: auto;
+}
+
+/* Game(s) Page */
+
+iframe {
+	width: 100%;
+	height: 100%;
 }
